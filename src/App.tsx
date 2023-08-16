@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <AppWrapper>
+        <AppWrapper data-testid="app-wrapper">
           <h1>Qual sua casa de Hogawarts?</h1>
           <div className='btn-wrapper'>
           <HouseButton variantColor='gryffindor' onClick={() => handleHouseButtonClick('gryffindor')}>

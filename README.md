@@ -1,3 +1,53 @@
+<h1 align="center"> Task 01 - Aplicação com temas </h1>
+
+<p align="center">
+  Desenvolvimento de uma aplicação que contenha temas dinâmicos, proposto pelo TechLead Rafael Ramos.<br/>
+</p>
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalacao-do-projeto">Instalação do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
+<img align="center" src="./public/aplicacao.png"/>
+
+
+
+<h2 align="center">Percentual de cobertura >= 40%:</h2>
+
+
+<img align="center" src="./public/teste.png"/>
+
+
+
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- TypeScript;
+- React;
+- Styled Components;
+- Jest;
+
+## ⚙️ Instalação do projeto
+
+Passo-a-passo:
+
+1. Comandos necessários para executar:
+
+```
+npm start
+```
+
+> O projeto deve ser visualizado em um navegador padrão.
+
+## 💻 Sobre o Projeto
+
+Uma aplicação que troca o tema de acordo com com a casa de Hogwarts que é escolhida.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

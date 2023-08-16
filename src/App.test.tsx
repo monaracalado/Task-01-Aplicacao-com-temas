@@ -1,9 +1,16 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders learn react link', () => {
+import { render, screen, fireEvent} from '@testing-library/react';
+import App from './App';
+import path from 'path';
+
+test('changes background image when clicking on house buttons', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  const appWrapper = screen.getByTestId('app-wrapper');
+
+    expect(appWrapper).toHaveStyle(`background-image: url("${path.resolve(__dirname, '../assets/backgroundImg.jpg')}")`);
+
+    const gryffindorButton = screen.getByText('Gryffindor');
+    fireEvent.click(gryffindorButton);
+    expect(appWrapper).toHaveStyle(`background-image: url("${path.resolve(__dirname, '../assets/Gryffindor.jpg')}")`);
+  
+  });

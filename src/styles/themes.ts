@@ -18,15 +18,15 @@ export const houseThemes: Record<string, HouseTheme> = {
     defaultTheme:{
         bgImage: `url(${background})`,
         gryffindor:"#740001",
-        hufflepuff: "#FFD700",
+        hufflepuff: "#e7a518",
         ravenclaw: "#000080",
         slytherin: "#2E8B57",
     },
 
     gryffindor:{
         bgImage: `url(${gryffindor})`,
-        gryffindor:"#740001",
-        hufflepuff: "#FFD700",
+        gryffindor:"#ff0600",
+        hufflepuff: "#e7a518",
         ravenclaw: "#000080",
         slytherin: "#2E8B57",
 
@@ -41,15 +41,15 @@ export const houseThemes: Record<string, HouseTheme> = {
     ravenclaw: {
         bgImage: `url(${ravenclaw})`,
         gryffindor:"#740001",
-        hufflepuff: "#FFD700",
-        ravenclaw: "#000080",
+        hufflepuff: "#e7a518",
+        ravenclaw: "#0000c6",
         slytherin: "#2E8B57",
     },
     slytherin: {
         bgImage: `url(${slytherin})`,
         gryffindor:"#740001",
-        hufflepuff: "#FFD700",
+        hufflepuff: "#e7a518",
         ravenclaw: "#000080",
-        slytherin: "#2E8B57",
+        slytherin: "#00b550",
     }
 }
