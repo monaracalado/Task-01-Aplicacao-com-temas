@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-no-sourcemaps": "react-scripts build --no-source-maps",
     "test": "react-scripts test",
     "test-coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
